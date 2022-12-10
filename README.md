@@ -1,6 +1,24 @@
-# Welcome to Remix!
+# Quick Start
 
-- [Remix Docs](https://remix.run/docs)
+```bash
+yarn install
+yarn dev
+```
+
+Open up [http://localhost:3000](http://localhost:3000) and you should be ready to go!
+
+If you're used to using the `vercel dev` command provided by [Vercel CLI](https://vercel.com/cli) instead, you can also use that, but it's not needed.
+
+## Stack
+
+- Obviously [Remix]()
+- Unit testing with [Vitest]() and [JavaScript Testing Library]()
+- end-to-end testing with [Cypress]()
+- Styling with [Tailwind]()
+- [Storybook](), including support for a11y
+- Code formatting with [Prettier]()
+- [TypeScript]()
+- Easily generate new pages and components with [PlopJS]()
 
 ## Deployment
 
@@ -14,21 +32,3 @@ vercel
 ```
 
 It is generally recommended to use a Git repository, because future commits will then automatically be deployed by Vercel, through its [Git Integration](https://vercel.com/docs/concepts/git).
-
-## Development
-
-To run your Remix app locally, make sure your project's local dependencies are installed:
-
-```sh
-npm install
-```
-
-Afterwards, start the Remix development server like so:
-
-```sh
-npm run dev
-```
-
-Open up [http://localhost:3000](http://localhost:3000) and you should be ready to go!
-
-If you're used to using the `vercel dev` command provided by [Vercel CLI](https://vercel.com/cli) instead, you can also use that, but it's not needed.
